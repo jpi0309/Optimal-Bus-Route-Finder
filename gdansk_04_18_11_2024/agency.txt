@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_email
+0,Zarząd Transportu Miejskiego w Gdańsku,https://ztm.gda.pl,Europe/Warsaw,pl-PL,+48 585 205 775,ztm@gdansk.gda.pl

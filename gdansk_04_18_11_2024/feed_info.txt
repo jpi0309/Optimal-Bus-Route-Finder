@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date
+Zarząd Transportu Miejskiego w Gdańsku,https://ztm.gda.pl,pl-PL,,20241116
