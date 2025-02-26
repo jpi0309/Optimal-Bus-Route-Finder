@@ -16,11 +16,19 @@ The Jupyter Notebook guides users through:
 ## Features
 - Generates a grid-based map of Gdańsk.
 - Processes public transportation data, including bus stops and arrivals.
-- Assigns bus trips to grid cells for efficient route calculation.
+- Assigns bus stops to grid cells for efficient route calculation.
+- Creating the G_transit graph (where nodes represent bus stops distinguished by their location and the arrival time of different buses) to use Dijkstra's algorithm for finding the shortest path.
 - Implements shortest path algorithms for optimized route suggestions.
-- Allows data updates when needed to prevent graph overload, rather than updating daily\.
+- Allows data updates when needed to prevent graph overload.
 - Generates an interactive HTML map of the shortest path.
+- Possibility of extending the concept to any other city where GTFS data is available.
 
+Below are visualizations of the concepts: a graph overlaid on a grid to accelerate path searching and the fastest bus route from a sample user location to the destination:
+
+ <p align="center">
+    <img src="graph.png" alt="Shortest Path" width="400"/>
+    <img src="shortest_path.png" alt="Another Image" width="400"/>
+</p>
 ## Installation
 1. Clone the repository:
    ```sh
@@ -40,9 +48,6 @@ The Jupyter Notebook guides users through:
 - Open the Jupyter Notebook and execute the cells step by step to process the data.
 - Modify the input dataset to analyze different timeframes or locations.
 - The computed shortest path is saved as `shortest_path.html` and can be opened in any web browser for visualization.
-- Below is a sample visualization of the shortest path:
-
- <img src="shortest_path.png" alt="Shortest Path" width="500"/>
  
 ## Dependencies
 The project requires the following Python libraries:
