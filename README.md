@@ -42,8 +42,8 @@ The Jupyter Notebook guides users through:
 - The computed shortest path is saved as `shortest_path.html` and can be opened in any web browser for visualization.
 - Below is a sample visualization of the shortest path:
 
-  ![Shortest Path](shortest_path.png)
-
+ <img src="shortest_path.png" alt="Shortest Path" width="500"/>
+ 
 ## Dependencies
 The project requires the following Python libraries:
 - pandas
