@@ -29,6 +29,7 @@ Below are visualizations of the concepts: a graph overlaid on a grid to accelera
     <img src="graph.png" alt="Shortest Path" width="400"/>
     <img src="shortest_path.png" alt="Another Image" width="400"/>
 </p>
+
 ## Installation
 1. Clone the repository:
    ```sh
