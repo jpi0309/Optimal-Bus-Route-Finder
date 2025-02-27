@@ -13,7 +13,7 @@ The Jupyter Notebook guides users through:
 4. Implementing a modified multi-source Dijkstra’s algorithm to determine the shortest routes.
 5. Testing the finder on your own custom coordinates and timestamps.
 
-Each notebook is well-described for better understanding.
+Notebook is well-described for better understanding.
 
 ## Features
 - Generates a grid-based map of Gdańsk.
