@@ -1,4 +1,4 @@
-# Optimal-Bus-Route-Finder
+# Optimal-Bus-Route-Finder based on Djikstra`s algorithm
 Bus route search engine based on a graph constructed from processed GTFS data and using a modified Dijkstra's algorithm.
 
 # Route Finder
@@ -13,6 +13,8 @@ The Jupyter Notebook guides users through:
 4. Implementing a modified multi-source Dijkstra’s algorithm to determine the shortest routes.
 5. Testing the finder on your own custom coordinates and timestamps.
 
+Each notebook is well-described for better understanding.
+
 ## Features
 - Generates a grid-based map of Gdańsk.
 - Processes public transportation data, including bus stops and arrivals.
@@ -22,21 +24,6 @@ The Jupyter Notebook guides users through:
 - Allows data updates when needed to prevent graph overload.
 - Generates an interactive HTML map of the shortest path.
 - Possibility of extending the concept to any other city where GTFS data is available.
-
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone <repository_url>
-   cd route-finder
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook:
-   ```sh
-   jupyter notebook "Route Finder.ipynb"
-   ```
 
 ## Usage
 - Open the Jupyter Notebook
