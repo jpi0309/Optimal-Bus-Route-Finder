@@ -62,8 +62,7 @@ Below are visualizations of the concepts: a graph overlaid on a grid to accelera
 - Enhancing route optimization algorithms.
 - Expanding coverage beyond Gdańsk.
 
-## Author
-Developed by [jpi0309]. Share your opinion!
+ Share your opinion!
 
 
 
