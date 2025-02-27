@@ -1,8 +1,6 @@
 # Optimal-Bus-Route-Finder based on Djikstra`s algorithm
 Bus route finder based on a graph constructed from processed GTFS data and using a modified Dijkstra's algorithm.
 
-# Route Finder
-
 ## Overview
 This project aims to create a route-finding system for public transportation in Gdańsk. To build the finder, we use our own ideas, such as a grid onto which we map node positions linearly (significantly speeding up searches), a graph with nodes and edges designed to optimize memory usage, fast node lookup using a k-d tree, and a modified multi-source Dijkstra algorithm to find the shortest possible path in the graph. To create the finder, we need access to GTFS data for the given city.
 
