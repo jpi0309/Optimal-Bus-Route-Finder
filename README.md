@@ -49,12 +49,12 @@ The dataset includes:
 ## Graph idea
 Below are schematic visualizations of the graph we created. We have two different bus routes passing through different stops (see ID numbers).  
 <p align="center">
-    <img src="graf2.png" alt="Shortest Path" width="400"/>
+    <img src="graf2.png" alt="Shortest Path" width="500" height="300"/>
 </p>
 
 Here, we have nodes representing the same physical bus stop but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes and catch the bus.
 <p align ="center">
-  <img src="graf.png" alt="Another Image" width="500" height="300"/>
+  <img src="graf.png" alt="Another Image" width="400"/>
 </p>
 
 Below, we present the method we use to connect different bus stops. For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between them, and then assign this value to the edge directly connecting the bus stop nodes. We do not connect G_transit directly with G_walk.
