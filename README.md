@@ -54,13 +54,13 @@ Below are schematic visualizations of the graph we created. We have two differen
 
 Here, we have nodes representing the same physical bus stop but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes and catch the bus.
 <p align ="center">
-  <img src="graf2.png" alt="Another Image" width="400"/>
+  <img src="graf2.png" alt="Another Image" width="400" height="300"/>
 </p>
 
 Below, we present the method we use to connect different bus stops. For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between them, and then assign this value to the edge directly connecting the bus stop nodes. We do not connect G_transit directly with G_walk.
 
 <p align="center">
-    <img src="graf3.png" alt="Shortest Path" width="500" height="250"/>
+    <img src="graf3.png" alt="Shortest Path" width="500"/>
 </p>
 
 ## Examples
