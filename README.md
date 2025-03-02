@@ -60,7 +60,7 @@ Here, we have nodes representing the same physical bus stop but at different arr
 Below, we present the method we use to connect different bus stops. For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between them, and then assign this value to the edge directly connecting the bus stop nodes. We do not connect G_transit directly with G_walk.
 
 <p align="center">
-    <img src="graf3.png" alt="Shortest Path" width="400"/>
+    <img src="graf3.png" alt="Shortest Path" width="500" height="250"/>
 </p>
 
 ## Examples
