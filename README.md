@@ -24,7 +24,7 @@ Notebook is well-described for better understanding.
 - Possibility of extending the concept to any other city where GTFS data is available.
 
 ## Usage
--Download the required data. Some files might be stored as pointers (.lfs).
+- Download the required data. Some files might be stored as pointers (.lfs).
 - Open the Jupyter Notebook
 - Install the required libraries (you will find them in the first cell).
 - Execute the cells step by step to process the data.
