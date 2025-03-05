@@ -24,6 +24,7 @@ Notebook is well-described for better understanding.
 - Possibility of extending the concept to any other city where GTFS data is available.
 
 ## Usage
+-Download the required data. Some files might be stored as pointers (.lfs).
 - Open the Jupyter Notebook
 - Install the required libraries (you will find them in the first cell).
 - Execute the cells step by step to process the data.
@@ -57,7 +58,7 @@ Here, we have nodes representing the same physical bus stops (IDs 1 and 2) but a
   <img src="graf.png" alt="Another Image" width="400"/>
 </p>
 
-Below, we present the method we use to connect different bus stops (see above). For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between them, and then assign this value to the edge directly connecting the bus stop nodes (only if such an edge is possible). We do not connect G_transit directly with G_walk.
+Below, we present the method we use to connect different bus stops (see above). For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between stops, and then assign this value to the edge directly connecting the bus stop nodes (only if such an edge is possible). We do not connect G_transit directly with G_walk.
 
 <p align="center">
     <img src="graf3.png" alt="Shortest Path" width="500"/>
@@ -77,7 +78,7 @@ Below are visualizations of the concepts: a graph overlaid on a grid to accelera
 - Enhancing route optimization algorithms.
 - Expanding coverage beyond Gdańsk.
 
- Share your opinion!
+ 
 
 
 
