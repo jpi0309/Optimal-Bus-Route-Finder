@@ -50,7 +50,7 @@ The dataset includes:
 ## Graph idea
 Below are schematic visualizations of the graph we created. We have two different bus routes passing through different stops (see ID numbers).  
 <p align="center">
-    <img src="graf2.png" alt="Shortest Path" width="500" height="300"/>
+    <img src="images\\graf2.png" alt="Shortest Path" width="500" height="300"/>
 </p>
 
 Here, we have nodes representing the same physical bus stops (IDs 1 and 2) but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes (example range) and catch the bus.
