@@ -50,18 +50,18 @@ The dataset includes:
 ## Graph idea
 Below are schematic visualizations of the graph we created. We have two different bus routes passing through different stops (see ID numbers).  
 <p align="center">
-    <img src="images\\graf2.png" alt="Shortest Path" width="500" height="300"/>
+    <img src="images\\graf2.png" alt="graph1" width="500" height="300"/>
 </p>
 
 Here, we have nodes representing the same physical bus stops (IDs 1 and 2) but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes (example range) and catch the bus.
 <p align ="center">
-  <img src="graf.png" alt="Another Image" width="400"/>
+  <img src="images\\graf.png" alt="graph2" width="400"/>
 </p>
 
 Below, we present the method we use to connect different bus stops (see above). For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between stops, and then assign this value to the edge directly connecting the bus stop nodes (only if such an edge is possible). We do not connect G_transit directly with G_walk.
 
 <p align="center">
-    <img src="graf3.png" alt="Shortest Path" width="500"/>
+    <img src="images\\graf3.png" alt="graph3" width="500"/>
 </p>
 
 ## Examples
@@ -69,8 +69,8 @@ Below, we present the method we use to connect different bus stops (see above). 
 Below are visualizations of the concepts: a graph overlaid on a grid to accelerate path searching (left) and the fastest bus route from a sample user location to the destination and current time (right):
 
  <p align="center">
-    <img src="graph.png" alt="Shortest Path" width="400"/>
-    <img src="shortest_path.png" alt="Another Image" width="400"/>
+    <img src="images\\graph.png" alt="graph" width="400"/>
+    <img src="images\\shortest_path.png" alt="shortest path" width="400"/>
 </p>
 
 ## Future Improvements
