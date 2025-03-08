@@ -24,6 +24,7 @@ Notebook is well-described for better understanding.
 - Possibility of extending the concept to any other city where GTFS data is available.
 
 ## Usage
+- Download the required data. Some files might be stored as pointers (.lfs).
 - Open the Jupyter Notebook
 - Install the required libraries (you will find them in the first cell).
 - Execute the cells step by step to process the data.
@@ -49,15 +50,15 @@ The dataset includes:
 ## Graph idea
 Below are schematic visualizations of the graph we created. We have two different bus routes passing through different stops (see ID numbers).  
 <p align="center">
-    <img src="graf.png" alt="Shortest Path" width="400"/>
+    <img src="graf2.png" alt="Shortest Path" width="500" height="300"/>
 </p>
 
-Here, we have nodes representing the same physical bus stop but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes and catch the bus.
+Here, we have nodes representing the same physical bus stops (IDs 1 and 2) but at different arrival times of buses. An edge is created only when the user can walk on foot within 10 minutes (example range) and catch the bus.
 <p align ="center">
-  <img src="graf2.png" alt="Another Image" width="500" height="300"/>
+  <img src="graf.png" alt="Another Image" width="400"/>
 </p>
 
-Below, we present the method we use to connect different bus stops. For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between them, and then assign this value to the edge directly connecting the bus stop nodes. We do not connect G_transit directly with G_walk.
+Below, we present the method we use to connect different bus stops (see above). For each bus stop, we identify the nearest node in the walking graph (G_walk), calculate the walking time between stops, and then assign this value to the edge directly connecting the bus stop nodes (only if such an edge is possible). We do not connect G_transit directly with G_walk.
 
 <p align="center">
     <img src="graf3.png" alt="Shortest Path" width="500"/>
@@ -77,7 +78,7 @@ Below are visualizations of the concepts: a graph overlaid on a grid to accelera
 - Enhancing route optimization algorithms.
 - Expanding coverage beyond Gdańsk.
 
- Share your opinion!
+ 
 
 
 
